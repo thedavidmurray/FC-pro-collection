@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny Glasses with Upload</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            color: #fff;
+        }
+        
+        .upload-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .upload-area {
+            border: 2px dashed rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            padding: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .upload-area:hover {
+            border-color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .upload-area.dragover {
+            border-color: #4ade80;
+            background: rgba(74, 222, 128, 0.1);
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .upload-btn {
+            background: linear-gradient(45deg, #4ade80, #22c55e);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .glasses-display {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .glasses-svg {
+            width: 400px;
+            height: 400px;
+            filter: drop-shadow(0 10px 25px rgba(0,0,0,0.3));
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .control-group {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .control-group input {
+            width: 80%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        .preset-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .preset-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            color: white;
+        }
+        
+        .preset-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .preset-subtle {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+        }
+        
+        .preset-medium {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+        }
+        
+        .preset-strong {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+        }
+        
+        .preset-rainbow {
+            background: linear-gradient(45deg, #9b59b6, #8e44ad);
+        }
+        
+        .download-btn {
+            background: linear-gradient(45deg, #2ecc71, #27ae60);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .default-message {
+            color: #666;
+            font-size: 1.2em;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Shiny Glasses Generator</h1>
+        <p style="opacity: 0.9; margin-bottom: 30px;">Upload your SVG or use the default glasses, then add realistic glass shine and reflection effects</p>
+        
+        <!-- Upload Section -->
+        <div class="upload-section">
+            <div class="upload-area" id="uploadArea">
+                <div style="font-size: 2em; margin-bottom: 10px;">📁</div>
+                <div>Drop your SVG file here or click to browse</div>
+                <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                    Select SVG File
+                </button>
+                <input type="file" id="fileInput" class="file-input" accept=".svg,image/svg+xml">
+                <div style="margin-top: 15px; opacity: 0.8;">
+                    <button class="upload-btn" onclick="loadDefaultGlasses()" style="background: linear-gradient(45deg, #667eea, #764ba2);">
+                        Use Default Glasses
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="glasses-display">
+            <div id="svgContainer">
+                <div class="default-message">Upload an SVG or click "Use Default Glasses" to start</div>
+            </div>
+        </div>
+        
+        <div id="shineControls" style="display: none;">
+            <!-- Preset Styles -->
+            <div class="preset-buttons">
+                <button class="preset-btn preset-subtle" onclick="applyShinePreset('subtle')">Subtle Shine</button>
+                <button class="preset-btn preset-medium" onclick="applyShinePreset('medium')">Medium Shine</button>
+                <button class="preset-btn preset-strong" onclick="applyShinePreset('strong')">Strong Shine</button>
+                <button class="preset-btn preset-rainbow" onclick="applyShinePreset('rainbow')">Rainbow Reflection</button>
+            </div>
+            
+            <!-- Custom Controls -->
+            <div class="controls">
+                <div class="control-group">
+                    <label for="shineIntensity">Shine Intensity</label>
+                    <input type="range" id="shineIntensity" min="0" max="100" value="50">
+                </div>
+                <div class="control-group">
+                    <label for="highlightSize">Highlight Size</label>
+                    <input type="range" id="highlightSize" min="1" max="20" value="8">
+                </div>
+                <div class="control-group">
+                    <label for="reflectionOpacity">Reflection Opacity</label>
+                    <input type="range" id="reflectionOpacity" min="0" max="100" value="30">
+                </div>
+                <div class="control-group">
+                    <label for="shineColor">Shine Color</label>
+                    <input type="color" id="shineColor" value="#ffffff">
+                </div>
+            </div>
+            
+            <button class="download-btn" onclick="downloadShinyGlasses()">📥 Download Shiny SVG</button>
+        </div>
+    </div>
+    
+    <script>
+        let currentSVGElement = null;
+        
+        // Initialize event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            setupUploadHandlers();
+            setupControlHandlers();
+        });
+        
+        function setupUploadHandlers() {
+            const uploadArea = document.getElementById('uploadArea');
+            const fileInput = document.getElementById('fileInput');
+            
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+            
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+            
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                handleFile(e.dataTransfer.files[0]);
+            });
+            
+            fileInput.addEventListener('change', (e) => {
+                handleFile(e.target.files[0]);
+            });
+        }
+        
+        function setupControlHandlers() {
+            document.getElementById('shineIntensity').addEventListener('input', updateShineEffects);
+            document.getElementById('highlightSize').addEventListener('input', updateShineEffects);
+            document.getElementById('reflectionOpacity').addEventListener('input', updateShineEffects);
+            document.getElementById('shineColor').addEventListener('input', updateShineEffects);
+        }
+        
+        function handleFile(file) {
+            if (!file || !file.type.includes('svg')) {
+                alert('Please select a valid SVG file');
+                return;
+            }
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                loadSVG(e.target.result);
+            };
+            reader.readAsText(file);
+        }
+        
+        function loadDefaultGlasses() {
+            const defaultGlasses = `
+                <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" style="stop-color:#D4AF37; stop-opacity:1"/>
+                      <stop offset="20%" style="stop-color:#e6c200; stop-opacity:1"/>
+                      <stop offset="50%" style="stop-color:#ffdf34; stop-opacity:1"/>
+                      <stop offset="60%" style="stop-color:#e6c200; stop-opacity:1"/>
+                      <stop offset="80%" style="stop-color:#FFB14E; stop-opacity:1"/>
+                      <stop offset="100%" style="stop-color:#D4AF37; stop-opacity:1"/>
+                    </linearGradient>
+                  </defs>
+                  <g fill="black" opacity="0.8">
+                    <rect x="80" y="160" width="80" height="80"/>
+                    <circle cx="160" cy="240" r="80"/>
+                  </g>
+                  <circle cx="340" cy="240" r="80" fill="black" opacity="0.8"/>
+                  <circle cx="230" cy="232" r="5" fill="url(#gold-gradient)"/>
+                  <circle cx="270" cy="232" r="5" fill="url(#gold-gradient)"/>
+                  <g transform="translate(160, 245)" stroke="url(#gold-gradient)">
+                    <path d="M 70 -10 C 70 -20, 110 -20, 110 -10" fill="transparent" stroke-width="6"/>
+                  </g>
+                </svg>
+            `;
+            loadSVG(defaultGlasses);
+        }
+        
+        function loadSVG(svgContent) {
+            const container = document.getElementById('svgContainer');
+            container.innerHTML = svgContent;
+            
+            currentSVGElement = container.querySelector('svg');
+            if (currentSVGElement) {
+                currentSVGElement.classList.add('glasses-svg');
+                addShineInfrastructure();
+                document.getElementById('shineControls').style.display = 'block';
+                applyShinePreset('medium');
+            }
+        }
+        
+        function addShineInfrastructure() {
+            if (!currentSVGElement) return;
+            
+            let defs = currentSVGElement.querySelector('defs');
+            if (!defs) {
+                defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+                currentSVGElement.insertBefore(defs, currentSVGElement.firstChild);
+            }
+            
+            // Glass reflection gradients
+            const glassShineLeft = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+            glassShineLeft.setAttribute('id', 'glass-shine-left');
+            glassShineLeft.setAttribute('x1', '0%');
+            glassShineLeft.setAttribute('y1', '0%');
+            glassShineLeft.setAttribute('x2', '100%');
+            glassShineLeft.setAttribute('y2', '100%');
+            glassShineLeft.innerHTML = `
+                <stop offset="0%" style="stop-color:rgba(255,255,255,0.6); stop-opacity:1"/>
+                <stop offset="30%" style="stop-color:rgba(255,255,255,0.3); stop-opacity:1"/>
+                <stop offset="70%" style="stop-color:rgba(255,255,255,0.1); stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:rgba(255,255,255,0); stop-opacity:1"/>
+            `;
+            
+            const glassShineRight = document.createElementNS('http://www.w3.org/2000/svg', 'radialGradient');
+            glassShineRight.setAttribute('id', 'glass-shine-right');
+            glassShineRight.setAttribute('cx', '30%');
+            glassShineRight.setAttribute('cy', '30%');
+            glassShineRight.setAttribute('r', '50%');
+            glassShineRight.innerHTML = `
+                <stop offset="0%" style="stop-color:rgba(255,255,255,0.7); stop-opacity:1"/>
+                <stop offset="40%" style="stop-color:rgba(255,255,255,0.3); stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:rgba(255,255,255,0); stop-opacity:1"/>
+            `;
+            
+            const customShine = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+            customShine.setAttribute('id', 'custom-shine');
+            customShine.setAttribute('x1', '0%');
+            customShine.setAttribute('y1', '0%');
+            customShine.setAttribute('x2', '100%');
+            customShine.setAttribute('y2', '100%');
+            customShine.innerHTML = `
+                <stop offset="0%" style="stop-color:rgba(255,255,255,0.5); stop-opacity:1" id="shine-start"/>
+                <stop offset="100%" style="stop-color:rgba(255,255,255,0); stop-opacity:1" id="shine-end"/>
+            `;
+            
+            const subtleReflection = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+            subtleReflection.setAttribute('id', 'subtle-reflection');
+            subtleReflection.setAttribute('x1', '0%');
+            subtleReflection.setAttribute('y1', '0%');
+            subtleReflection.setAttribute('x2', '0%');
+            subtleReflection.setAttribute('y2', '100%');
+            subtleReflection.innerHTML = `
+                <stop offset="0%" style="stop-color:rgba(135,206,250,0.3); stop-opacity:1"/>
+                <stop offset="50%" style="stop-color:rgba(135,206,250,0.1); stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:rgba(135,206,250,0); stop-opacity:1"/>
+            `;
+            
+            defs.appendChild(glassShineLeft);
+            defs.appendChild(glassShineRight);
+            defs.appendChild(customShine);
+            defs.appendChild(subtleReflection);
+            
+            // Add shine effects to the SVG
+            addShineElements();
+        }
+        
+        function addShineElements() {
+            if (!currentSVGElement) return;
+            
+            // Add the EXACT V1 shine effects using proper SVG createElement
+            
+            // Left lens shine group
+            const leftShineGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            leftShineGroup.setAttribute('id', 'leftShineGroup');
+            
+            // Left shine rect
+            const leftShineRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            leftShineRect.setAttribute('x', '85');
+            leftShineRect.setAttribute('y', '165');
+            leftShineRect.setAttribute('width', '30');
+            leftShineRect.setAttribute('height', '35');
+            leftShineRect.setAttribute('fill', 'url(#custom-shine)');
+            leftShineRect.setAttribute('rx', '5');
+            
+            // Left shine ellipse
+            const leftShineEllipse = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse');
+            leftShineEllipse.setAttribute('cx', '145');
+            leftShineEllipse.setAttribute('cy', '210');
+            leftShineEllipse.setAttribute('rx', '25');
+            leftShineEllipse.setAttribute('ry', '35');
+            leftShineEllipse.setAttribute('fill', 'url(#custom-shine)');
+            
+            leftShineGroup.appendChild(leftShineRect);
+            leftShineGroup.appendChild(leftShineEllipse);
+            
+            // Right lens shine
+            const rightShine = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse');
+            rightShine.setAttribute('id', 'rightShine');
+            rightShine.setAttribute('cx', '320');
+            rightShine.setAttribute('cy', '220');
+            rightShine.setAttribute('rx', '20');
+            rightShine.setAttribute('ry', '30');
+            rightShine.setAttribute('fill', 'url(#custom-shine)');
+            
+            // Left highlight
+            const leftHighlight = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            leftHighlight.setAttribute('id', 'leftHighlight');
+            leftHighlight.setAttribute('cx', '95');
+            leftHighlight.setAttribute('cy', '175');
+            leftHighlight.setAttribute('r', '8');
+            leftHighlight.setAttribute('fill', 'rgba(255,255,255,0.8)');
+            
+            // Right highlight
+            const rightHighlight = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            rightHighlight.setAttribute('id', 'rightHighlight');
+            rightHighlight.setAttribute('cx', '325');
+            rightHighlight.setAttribute('cy', '215');
+            rightHighlight.setAttribute('r', '6');
+            rightHighlight.setAttribute('fill', 'rgba(255,255,255,0.7)');
+            
+            // Glass overlay group
+            const glassOverlay = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            glassOverlay.setAttribute('id', 'glassOverlay');
+            glassOverlay.setAttribute('opacity', '0.3');
+            
+            // Glass overlay rect
+            const glassRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+            glassRect.setAttribute('x', '80');
+            glassRect.setAttribute('y', '160');
+            glassRect.setAttribute('width', '80');
+            glassRect.setAttribute('height', '80');
+            glassRect.setAttribute('fill', 'url(#subtle-reflection)');
+            
+            // Glass overlay circles
+            const glassCircle1 = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            glassCircle1.setAttribute('cx', '160');
+            glassCircle1.setAttribute('cy', '240');
+            glassCircle1.setAttribute('r', '80');
+            glassCircle1.setAttribute('fill', 'url(#subtle-reflection)');
+            
+            const glassCircle2 = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            glassCircle2.setAttribute('cx', '340');
+            glassCircle2.setAttribute('cy', '240');
+            glassCircle2.setAttribute('r', '80');
+            glassCircle2.setAttribute('fill', 'url(#subtle-reflection)');
+            
+            glassOverlay.appendChild(glassRect);
+            glassOverlay.appendChild(glassCircle1);
+            glassOverlay.appendChild(glassCircle2);
+            
+            // Secondary reflections group
+            const secondaryReflections = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            secondaryReflections.setAttribute('id', 'secondaryReflections');
+            secondaryReflections.setAttribute('opacity', '0.2');
+            
+            const reflection1 = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse');
+            reflection1.setAttribute('cx', '130');
+            reflection1.setAttribute('cy', '260');
+            reflection1.setAttribute('rx', '15');
+            reflection1.setAttribute('ry', '8');
+            reflection1.setAttribute('fill', 'rgba(255,255,255,0.6)');
+            
+            const reflection2 = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse');
+            reflection2.setAttribute('cx', '360');
+            reflection2.setAttribute('cy', '255');
+            reflection2.setAttribute('rx', '12');
+            reflection2.setAttribute('ry', '6');
+            reflection2.setAttribute('fill', 'rgba(255,255,255,0.5)');
+            
+            secondaryReflections.appendChild(reflection1);
+            secondaryReflections.appendChild(reflection2);
+            
+            // Add all elements to SVG
+            currentSVGElement.appendChild(leftShineGroup);
+            currentSVGElement.appendChild(rightShine);
+            currentSVGElement.appendChild(leftHighlight);
+            currentSVGElement.appendChild(rightHighlight);
+            currentSVGElement.appendChild(glassOverlay);
+            currentSVGElement.appendChild(secondaryReflections);
+        }
+        
+        function addShineToElement(element, bbox, index) {
+            // This function is no longer needed since we're using exact V1 positioning
+            // V1 uses hardcoded coordinates for perfect positioning
+        }
+        
+        function applyShinePreset(preset) {
+            const presets = {
+                subtle: { intensity: 30, reflection: 20, color: '#ffffff', highlights: 5 },
+                medium: { intensity: 60, reflection: 30, color: '#ffffff', highlights: 8 },
+                strong: { intensity: 90, reflection: 40, color: '#ffffff', highlights: 12 },
+                rainbow: { intensity: 70, reflection: 50, color: '#87ceeb', highlights: 10 }
+            };
+            
+            const config = presets[preset];
+            if (config) {
+                document.getElementById('shineIntensity').value = config.intensity;
+                document.getElementById('reflectionOpacity').value = config.reflection;
+                document.getElementById('shineColor').value = config.color;
+                document.getElementById('highlightSize').value = config.highlights;
+                
+                updateShineEffects();
+            }
+        }
+        
+        function updateShineEffects() {
+            if (!currentSVGElement) return;
+            
+            const intensity = document.getElementById('shineIntensity').value / 100;
+            const highlightSize = document.getElementById('highlightSize').value;
+            const reflectionOpacity = document.getElementById('reflectionOpacity').value / 100;
+            const shineColor = document.getElementById('shineColor').value;
+            
+            // Convert hex to rgba
+            const hex = shineColor.replace('#', '');
+            const r = parseInt(hex.substr(0,2), 16);
+            const g = parseInt(hex.substr(2,2), 16);
+            const b = parseInt(hex.substr(4,2), 16);
+            
+            // Update shine intensity
+            const shineStart = currentSVGElement.querySelector('#shine-start');
+            if (shineStart) {
+                shineStart.style.stopColor = `rgba(${r},${g},${b},${intensity})`;
+            }
+            
+            // Update highlight sizes (V1 specific elements)
+            const leftHighlight = currentSVGElement.querySelector('#leftHighlight');
+            const rightHighlight = currentSVGElement.querySelector('#rightHighlight');
+            
+            if (leftHighlight) {
+                leftHighlight.setAttribute('r', highlightSize);
+                leftHighlight.setAttribute('fill', `rgba(255,255,255,${Math.min(intensity + 0.2, 1)})`);
+            }
+            
+            if (rightHighlight) {
+                rightHighlight.setAttribute('r', highlightSize * 0.75);
+                rightHighlight.setAttribute('fill', `rgba(255,255,255,${Math.min(intensity + 0.1, 0.9)})`);
+            }
+            
+            // Update reflection opacity
+            const glassOverlay = currentSVGElement.querySelector('#glassOverlay');
+            if (glassOverlay) {
+                glassOverlay.style.opacity = reflectionOpacity;
+            }
+            
+            // Update secondary reflections
+            const secondaryReflections = currentSVGElement.querySelector('#secondaryReflections');
+            if (secondaryReflections) {
+                secondaryReflections.style.opacity = reflectionOpacity * 0.7;
+            }
+        }
+        
+        function downloadShinyGlasses() {
+            if (!currentSVGElement) {
+                alert('No SVG loaded');
+                return;
+            }
+            
+            const svgContent = new XMLSerializer().serializeToString(currentSVGElement);
+            const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+            const url = URL.createObjectURL(blob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'shiny_glasses.svg';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

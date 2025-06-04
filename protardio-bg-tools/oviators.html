@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glasses Color Editor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            color: #fff;
+        }
+        
+        .glasses-display {
+            text-align: center;
+            margin: 30px 0;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+        }
+        
+        .glasses-svg {
+            width: 300px;
+            height: 300px;
+            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .control-group {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .control-group h3 {
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .color-picker {
+            width: 80px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 10px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .color-value {
+            font-family: monospace;
+            color: #fff;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        
+        .presets {
+            margin: 30px 0;
+        }
+        
+        .presets h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .preset-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .preset-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .preset-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+        
+        .preset-name {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .preset-colors {
+            font-family: monospace;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        
+        .download-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .download-btn {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            margin: 10px;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .variants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .variant-mini {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .variant-mini svg {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .variant-mini .name {
+            font-size: 10px;
+            color: #333;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🕶️ Glasses Color Editor</h1>
+        <p style="text-align: center; opacity: 0.9;">Change ONLY the colors - shapes stay EXACTLY the same!</p>
+        
+        <!-- Live Preview -->
+        <div class="glasses-display">
+            <svg class="glasses-svg" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" id="mainGlasses">
+              <defs>
+                <linearGradient id="bridge-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#D4AF37; stop-opacity:1"/>
+                  <stop offset="20%" style="stop-color:#e6c200; stop-opacity:1"/>
+                  <stop offset="50%" style="stop-color:#ffdf34; stop-opacity:1"/>
+                  <stop offset="60%" style="stop-color:#e6c200; stop-opacity:1"/>
+                  <stop offset="80%" style="stop-color:#FFB14E; stop-opacity:1"/>
+                  <stop offset="100%" style="stop-color:#D4AF37; stop-opacity:1"/>
+                </linearGradient>
+              </defs>
+              <g fill="black" opacity="0.8" id="leftLens">
+                <rect x="80" y="160" width="80" height="80"/>
+                <circle cx="160" cy="240" r="80"/>
+              </g>
+              <circle cx="340" cy="240" r="80" fill="black" opacity="0.8" id="rightLens"/>
+              <circle cx="230" cy="232" r="5" fill="url(#bridge-gradient)" id="bridgeLeft"/>
+              <circle cx="270" cy="232" r="5" fill="url(#bridge-gradient)" id="bridgeRight"/>
+              <g transform="translate(160, 245)" stroke="url(#bridge-gradient)" id="bridgeCurve">
+                <path d="M 70 -10 C 70 -20, 110 -20, 110 -10" fill="transparent" stroke-width="6"/>
+              </g>
+            </svg>
+        </div>
+        
+        <!-- Color Controls -->
+        <div class="controls">
+            <div class="control-group">
+                <h3>Frame Color</h3>
+                <input type="color" id="frameColor" class="color-picker" value="#000000">
+                <div class="color-value" id="frameValue">#000000</div>
+                <div style="margin-top: 10px;">
+                    Opacity: <input type="range" id="frameOpacity" min="0.1" max="1" step="0.1" value="0.8" style="width: 100px;">
+                    <span id="frameOpacityValue">0.8</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <h3>Bridge Color</h3>
+                <input type="color" id="bridgeColor" class="color-picker" value="#D4AF37">
+                <div class="color-value" id="bridgeValue">#D4AF37</div>
+                <div style="margin-top: 15px;">
+                    <button onclick="resetToGradient()" style="background: linear-gradient(45deg, #D4AF37, #ffdf34); border: none; padding: 8px 15px; border-radius: 8px; color: white; cursor: pointer;">
+                        Reset to Gold Gradient
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Presets -->
+        <div class="presets">
+            <h3>Color Presets</h3>
+            <div class="preset-grid">
+                <div class="preset-card" onclick="applyPreset('#000000', '#D4AF37', 'Classic Black')">
+                    <div class="preset-name">Classic Black</div>
+                    <div class="preset-colors">Frame: #000000<br>Bridge: Gold</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#8B4513', '#DAA520', 'Retro Brown')">
+                    <div class="preset-name">Retro Brown</div>
+                    <div class="preset-colors">Frame: #8B4513<br>Bridge: #DAA520</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#000080', '#4169E1', 'Ocean Blue')">
+                    <div class="preset-name">Ocean Blue</div>
+                    <div class="preset-colors">Frame: #000080<br>Bridge: #4169E1</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#800080', '#DA70D6', 'Purple Haze')">
+                    <div class="preset-name">Purple Haze</div>
+                    <div class="preset-colors">Frame: #800080<br>Bridge: #DA70D6</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#008000', '#32CD32', 'Forest Green')">
+                    <div class="preset-name">Forest Green</div>
+                    <div class="preset-colors">Frame: #008000<br>Bridge: #32CD32</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#FF0000', '#FFD700', 'Fire Red')">
+                    <div class="preset-name">Fire Red</div>
+                    <div class="preset-colors">Frame: #FF0000<br>Bridge: Gold</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#C0C0C0', '#F5F5F5', 'Silver Chrome')">
+                    <div class="preset-name">Silver Chrome</div>
+                    <div class="preset-colors">Frame: #C0C0C0<br>Bridge: #F5F5F5</div>
+                </div>
+                <div class="preset-card" onclick="applyPreset('#39FF14', '#FFFF00', 'Neon Green')">
+                    <div class="preset-name">Neon Green</div>
+                    <div class="preset-colors">Frame: #39FF14<br>Bridge: #FFFF00</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Generated Variants Preview -->
+        <div id="variantsSection" style="display: none;">
+            <h3 style="text-align: center;">Generated Variants</h3>
+            <div class="variants-grid" id="variantsGrid"></div>
+        </div>
+        
+        <!-- Download Buttons -->
+        <div class="download-section">
+            <button class="download-btn" onclick="downloadCurrentSVG()">📥 Download Current</button>
+            <button class="download-btn" onclick="generateAllVariants()">🎨 Generate All Presets</button>
+            <button class="download-btn" onclick="downloadAllVariants()" id="downloadAllBtn" style="display: none;">📦 Download All Variants</button>
+        </div>
+    </div>
+    
+    <script>
+        let generatedVariants = [];
+        
+        function updateColors() {
+            const frameColor = document.getElementById('frameColor').value;
+            const bridgeColor = document.getElementById('bridgeColor').value;
+            const frameOpacity = document.getElementById('frameOpacity').value;
+            
+            // Update frame elements (left lens group and right lens)
+            document.getElementById('leftLens').setAttribute('fill', frameColor);
+            document.getElementById('leftLens').setAttribute('opacity', frameOpacity);
+            document.getElementById('rightLens').setAttribute('fill', frameColor);
+            document.getElementById('rightLens').setAttribute('opacity', frameOpacity);
+            
+            // Update bridge color (solid color, not gradient)
+            document.getElementById('bridgeLeft').setAttribute('fill', bridgeColor);
+            document.getElementById('bridgeRight').setAttribute('fill', bridgeColor);
+            document.getElementById('bridgeCurve').setAttribute('stroke', bridgeColor);
+            
+            // Update display values
+            document.getElementById('frameValue').textContent = frameColor;
+            document.getElementById('bridgeValue').textContent = bridgeColor;
+            document.getElementById('frameOpacityValue').textContent = frameOpacity;
+        }
+        
+        function resetToGradient() {
+            // Reset bridge to original gradient
+            document.getElementById('bridgeLeft').setAttribute('fill', 'url(#bridge-gradient)');
+            document.getElementById('bridgeRight').setAttribute('fill', 'url(#bridge-gradient)');
+            document.getElementById('bridgeCurve').setAttribute('stroke', 'url(#bridge-gradient)');
+            document.getElementById('bridgeColor').value = '#D4AF37';
+            document.getElementById('bridgeValue').textContent = 'Gradient';
+        }
+        
+        function applyPreset(frameColor, bridgeColor, name) {
+            document.getElementById('frameColor').value = frameColor;
+            document.getElementById('bridgeColor').value = bridgeColor;
+            updateColors();
+        }
+        
+        function createVariantSVG(frameColor, bridgeColor, frameOpacity, name) {
+            const bridgeFill = bridgeColor === '#D4AF37' ? 'url(#bridge-gradient)' : bridgeColor;
+            const bridgeStroke = bridgeColor === '#D4AF37' ? 'url(#bridge-gradient)' : bridgeColor;
+            
+            return `<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="bridge-gradient-${name}" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#D4AF37; stop-opacity:1"/>
+                  <stop offset="20%" style="stop-color:#e6c200; stop-opacity:1"/>
+                  <stop offset="50%" style="stop-color:#ffdf34; stop-opacity:1"/>
+                  <stop offset="60%" style="stop-color:#e6c200; stop-opacity:1"/>
+                  <stop offset="80%" style="stop-color:#FFB14E; stop-opacity:1"/>
+                  <stop offset="100%" style="stop-color:#D4AF37; stop-opacity:1"/>
+                </linearGradient>
+              </defs>
+              <g fill="${frameColor}" opacity="${frameOpacity}">
+                <rect x="80" y="160" width="80" height="80"/>
+                <circle cx="160" cy="240" r="80"/>
+              </g>
+              <circle cx="340" cy="240" r="80" fill="${frameColor}" opacity="${frameOpacity}"/>
+              <circle cx="230" cy="232" r="5" fill="${bridgeFill}"/>
+              <circle cx="270" cy="232" r="5" fill="${bridgeFill}"/>
+              <g transform="translate(160, 245)" stroke="${bridgeStroke}">
+                <path d="M 70 -10 C 70 -20, 110 -20, 110 -10" fill="transparent" stroke-width="6"/>
+              </g>
+            </svg>`;
+        }
+        
+        function downloadCurrentSVG() {
+            const frameColor = document.getElementById('frameColor').value;
+            const bridgeColor = document.getElementById('bridgeColor').value;
+            const frameOpacity = document.getElementById('frameOpacity').value;
+            
+            const svgContent = createVariantSVG(frameColor, bridgeColor, frameOpacity, 'current');
+            const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+            const url = URL.createObjectURL(blob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `glasses_${frameColor.replace('#', '')}_${bridgeColor.replace('#', '')}.svg`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+        
+        function generateAllVariants() {
+            const presets = [
+                { name: 'Classic_Black', frame: '#000000', bridge: '#D4AF37' },
+                { name: 'Retro_Brown', frame: '#8B4513', bridge: '#DAA520' },
+                { name: 'Ocean_Blue', frame: '#000080', bridge: '#4169E1' },
+                { name: 'Purple_Haze', frame: '#800080', bridge: '#DA70D6' },
+                { name: 'Forest_Green', frame: '#008000', bridge: '#32CD32' },
+                { name: 'Fire_Red', frame: '#FF0000', bridge: '#FFD700' },
+                { name: 'Silver_Chrome', frame: '#C0C0C0', bridge: '#F5F5F5' },
+                { name: 'Neon_Green', frame: '#39FF14', bridge: '#FFFF00' }
+            ];
+            
+            generatedVariants = [];
+            const variantsGrid = document.getElementById('variantsGrid');
+            variantsGrid.innerHTML = '';
+            
+            presets.forEach(preset => {
+                const svgContent = createVariantSVG(preset.frame, preset.bridge, '0.8', preset.name);
+                generatedVariants.push({
+                    name: preset.name,
+                    svg: svgContent
+                });
+                
+                const variantDiv = document.createElement('div');
+                variantDiv.className = 'variant-mini';
+                variantDiv.innerHTML = `
+                    ${svgContent}
+                    <div class="name">${preset.name.replace('_', ' ')}</div>
+                `;
+                variantsGrid.appendChild(variantDiv);
+            });
+            
+            document.getElementById('variantsSection').style.display = 'block';
+            document.getElementById('downloadAllBtn').style.display = 'inline-block';
+        }
+        
+        function downloadAllVariants() {
+            generatedVariants.forEach((variant, index) => {
+                setTimeout(() => {
+                    const blob = new Blob([variant.svg], { type: 'image/svg+xml' });
+                    const url = URL.createObjectURL(blob);
+                    
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = `Glasses_${variant.name}.svg`;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    URL.revokeObjectURL(url);
+                }, index * 200);
+            });
+        }
+        
+        // Event listeners - ONLY for color changes!
+        document.getElementById('frameColor').addEventListener('input', updateColors);
+        document.getElementById('bridgeColor').addEventListener('input', updateColors);
+        document.getElementById('frameOpacity').addEventListener('input', updateColors);
+        
+        // Initialize
+        updateColors();
+    </script>
+</body>
+</html>
