@@ -1,0 +1,7 @@
+# Ignore macOS and Windows system files
+.DS_Store
+*Zone.Identifier
+# Node modules
+node_modules/
+# Python caches
+__pycache__/
