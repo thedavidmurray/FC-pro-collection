@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #774",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/774.png",
+  "imageHash": "c47cea0ae18de16e2adb83a7ddc167ed940d4aa7f8f15ffdd02b61ce9f36e897",
+  "edition": 774,
+  "date": 1754888859010,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Farcats_hue_52n"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesSouthpark"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas Red"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatSweat"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Purple"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtGucci Flash"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBeetle"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthBinky"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "WeaponCandy Watch"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Chef Squeak"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetBasilisk"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

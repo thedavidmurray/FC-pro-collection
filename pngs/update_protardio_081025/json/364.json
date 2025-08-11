@@ -1,0 +1,39 @@
+{
+  "name": "Protardio #364",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/364.png",
+  "imageHash": "c6569d9d343d42b4f3bb642ee78c61b599ca9f843a472b542e8e39b77222d31c",
+  "edition": 364,
+  "date": 1754888785869,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "art_hue_58n"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Oni Light"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Meth"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtParis Hilton"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthJuul"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetYama"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

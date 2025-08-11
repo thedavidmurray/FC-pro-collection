@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #858",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/858.png",
+  "imageHash": "8c45a92d619b8e703b9f801fff2957f67b1209414b95030138ebe3f775b5a9ee",
+  "edition": 858,
+  "date": 1754888873676,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "pepe time_sat_150"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTears"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAfroPink"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Cobains"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtDrug Rug"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsRemilia Cat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthNormal"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendRalph"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "OverlayHearts"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

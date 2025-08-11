@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #278",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/278.png",
+  "imageHash": "48a02e02c7fe1fdd0fa0b22d900be42c03961d5e965745d750b741b6b7ce7aa9",
+  "edition": 278,
+  "date": 1754888771761,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "dune horse higherr_sat_130"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesMeth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_92"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Red"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtBlank Tank"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsDegen Coin"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCharlie Fang"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendIka"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

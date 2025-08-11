@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #280",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/280.png",
+  "imageHash": "590528262c53a5044f0a4f12b5ac2ebcf04c71b0f404b6b131c470796173c32a",
+  "edition": 280,
+  "date": 1754888772085,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "pepe time_blur_motion"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesPink"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Golden"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesBalenciaga Blue"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Blue Tie"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsFarcaster Arch"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigar"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "WeaponDesert Eagle"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendPoe"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetSadpuppy"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

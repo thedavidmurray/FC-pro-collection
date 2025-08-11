@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #501",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/501.png",
+  "imageHash": "024afd788a14538de9670b2818556801ddf56a376c23b2ed6c020ef18fb421cb",
+  "edition": 501,
+  "date": 1754888810853,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "low effort reply_hue_61n"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Reptilian"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Caramel"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hathigherhat_empty"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtJeff Gorvette"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthTriangle"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "DgenGoldenTix"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendMitubby"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

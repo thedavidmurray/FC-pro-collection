@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #35",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/35.png",
+  "imageHash": "f8a26203887e3b5f2e8cd83a8ce4aff4db8029d4e27a48eb99df5a34afb865b1",
+  "edition": 35,
+  "date": 1754888728040,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "zorb_sat_130"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Brown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Pink Painted"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatLogan Paul"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesMatrix"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtChore Coat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigar"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "HB Chimp"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

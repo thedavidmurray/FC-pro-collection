@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #464",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/464.png",
+  "imageHash": "6f472933d798c30fadf0992a3019bacae897754d1c7f933b0d542cbfed624b51",
+  "edition": 464,
+  "date": 1754888804180,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "cruising horse_grad_radial"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNotched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBlue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Dusty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_78"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtSony Aquarium 2017"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsStar Emoji"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthJuul"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Party Gent"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #704",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/704.png",
+  "imageHash": "a5392d747bce768616a98d85bb9432a583fabcb5499d41a87a4dcaf54280f75d",
+  "edition": 704,
+  "date": 1754888846348,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "milarch_noise"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Hazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairWidow Orange"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Red Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtParis Hilton"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsAirpod Pro"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthPipe"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}
