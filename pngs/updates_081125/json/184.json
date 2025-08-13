@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #184",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/184.png",
+  "imageHash": "e88321c6e0e9951fa6fc9f0292279e44392eb8db24ae47b5f66e925e6b8f1dd3",
+  "edition": 184,
+  "date": 1755064189472,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "energy_zora_blue"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesMeth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairWidow Blonde"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtLab Coat"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsSquare Diamond"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCharlie Fang"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetRobodog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

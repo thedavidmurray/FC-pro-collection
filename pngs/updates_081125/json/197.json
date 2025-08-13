@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #197",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/197.png",
+  "imageHash": "e0d2c0852de4728136ceddc2d0fe2be0c1253a3780edcf5bb0415959c17ab4e0",
+  "edition": 197,
+  "date": 1755064191823,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Lenny_warm"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNotched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesLight Green"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Bluish"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_72"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Red Sunnies"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Eagle Shirt"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsDBZ Potara"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSmug"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "HA"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "Higher Scanner"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

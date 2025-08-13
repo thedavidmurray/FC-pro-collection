@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #343",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/343.png",
+  "imageHash": "083e74152f614e1a2904873d872d8e3f6f210cf18cf6147c1811c24401f48ef1",
+  "edition": 343,
+  "date": 1755064239419,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "darth pepe_green"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "Fiery ogun brows"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Meth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Blonde"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_71"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesMissing Mottega"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chris Chan"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthTroll"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetJealousfish"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

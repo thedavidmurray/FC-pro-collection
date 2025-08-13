@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #114",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/114.png",
+  "imageHash": "1967d804f3fceadf54d1b3150a9d577893d0e09230e8287e639cabbe83ee4907",
+  "edition": 114,
+  "date": 1755064174000,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Background%AI_blue"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Green"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Salmon"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatDino Bucket"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Harajuku"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Skull Shirt"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsDegen Coin"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthTriangle"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendOfficial Bitcoin Mascot"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetPenguin"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #566",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/566.png",
+  "imageHash": "0a8052a5ceb7d8ae875ed758e5da1d96cfaaa1ba7142bc3a8fbde1694b36920a",
+  "edition": 566,
+  "date": 1755064277644,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "SuperAnon_purple1"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Elephant"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBrown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium BViolet"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatStraw Hat"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTom Cruise"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Balenci Shirt light"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigar_purple"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendPatrick"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "lisan"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

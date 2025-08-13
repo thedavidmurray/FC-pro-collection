@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #969",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/969.png",
+  "imageHash": "a4e75c74373b13b0eb1b861c21b2f039f2ddbb70c0d57597a4aa3ae8dc365d59",
+  "edition": 969,
+  "date": 1755064353847,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "farcats2_purple2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBlue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Pink"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_71"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesSafety Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtJeff Gorvette"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBalenciaga Icon"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigar_natural_peach"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "stevezissou"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetQuantumcat"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

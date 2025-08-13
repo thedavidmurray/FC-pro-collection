@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #433",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/433.png",
+  "imageHash": "7a0d397dc83c8dc3b65eb69b3b372cb870158ff33e0a37e70dfc1b2910bb9713",
+  "edition": 433,
+  "date": 1755064255102,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "cruising horse_gold2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNotched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon BlueViolet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Pink"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatMcDonalds"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTiny White"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Cry Guy"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsWarpcast W"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCalvinDark_glossy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Squeak King"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetInu"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

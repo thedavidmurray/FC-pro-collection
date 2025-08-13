@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #198",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/198.png",
+  "imageHash": "e7618c8c2ecb25c9d5baa86bc9a7e836c42b8e2ffee7dca7f5ad65f82ec6053a",
+  "edition": 198,
+  "date": 1755064192027,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "gmfc_gold1"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTears"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oak Mog"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtIts Okay To Be Based"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBeetle"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthBinky"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "HB Froggo"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetDuchampiggy"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

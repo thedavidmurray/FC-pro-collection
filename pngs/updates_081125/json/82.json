@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #82",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/82.png",
+  "imageHash": "be10ce26f3ddd398609f0512607e95624b8183808032781a835bad2acd281371",
+  "edition": 82,
+  "date": 1755064166829,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "cruising horse_warm"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Brown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairWidow White"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesFire"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Geff Jorvette"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsChrome Hearts"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSouthpark"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "sure_best_email"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "catGhibli"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetCrystalfox"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

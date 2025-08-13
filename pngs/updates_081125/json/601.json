@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #601",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/601.png",
+  "imageHash": "0ea7c5ecc87f03538bb59f0f49f8c5965d8df03652cffafc41b025c258ce5cc7",
+  "edition": 601,
+  "date": 1755064283871,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Rainbro_blue"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pixels"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTears"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Bright Pastel"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatMonkey Ears"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesAnime Shining"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Gold Groupie"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthFlipped"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendIlyena"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetDonutdog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

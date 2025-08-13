@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #642",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/642.png",
+  "imageHash": "fb44e7c7b44a57bfff17687df8effe882ac781cf471f19514f3788fc9e744712",
+  "edition": 642,
+  "date": 1755064290950,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "fabrics"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesLight Blue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Golden Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatFez"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Saint Insane Shirt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthTroll"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "catepiller 12"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "lisan"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

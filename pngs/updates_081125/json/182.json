@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #182",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/182.png",
+  "imageHash": "b21b6d58d28f550254918b4bbe6cbe747e142e3ab8e5d83f3da75411cfed186b",
+  "edition": 182,
+  "date": 1755064189131,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "farcaster_sun_noise"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Reptilian"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNotched"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas White"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatWool Beret"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtWWE Champion Belt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthTriangle"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendAmogus"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKaleidorabbit"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

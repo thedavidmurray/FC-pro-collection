@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #255",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/255.png",
+  "imageHash": "b9d6f3ae6ff0dcbb57111374ac52535a43152105c9a3cb27d19c22a2dba59560",
+  "edition": 255,
+  "date": 1755064212636,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "destroyer_gold1"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Degen Ghost"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Hazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Golden"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shirt Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendRabbits"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetYama"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

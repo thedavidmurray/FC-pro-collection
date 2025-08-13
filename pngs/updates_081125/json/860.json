@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #860",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/860.png",
+  "imageHash": "108f452790e8d162bfa0979497f38feb6abe836470b71814bf20a5fa9771cd34",
+  "edition": 860,
+  "date": 1755064332082,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "rank69"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon MethViolet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAfroPurple"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesJoe Biden"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shirt Black"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "HB Left Frog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

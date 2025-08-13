@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #721",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/721.png",
+  "imageHash": "e13ac5508fc255e2d7f951ee2536cff331e8ac271c3d6d9886d7972dc30b2240",
+  "edition": 721,
+  "date": 1755064306230,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "farcasterOG_purple1"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesMeth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Bright Pastel"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_20"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Green Sunnies"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Silk Shirt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigarette"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendGold Sonic"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "HB Left Frog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

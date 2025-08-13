@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #347",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/347.png",
+  "imageHash": "634ff8b24f616e6986a5c1678014ca38992496dc78fed5d682184ffb367d8ae0",
+  "edition": 347,
+  "date": 1755064240156,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Degen Golden Ticket"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Brown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairCharlie Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_54"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesShutter Shades"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Fish Puff"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthDummy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetGhostbunny"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetSandcat"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #997",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/997.png",
+  "imageHash": "c0915ae47a479e7a7fb48cc00f9dc2a7067c623b9caacf89953255bd30f360fb",
+  "edition": 997,
+  "date": 1755064360443,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Farcats_purple1"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Hazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Blonde"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatNothing Can Stop This"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesHalf Black"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Purple Fit"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthToothpick"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "catepiller 12"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "FriendSatya"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

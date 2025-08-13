@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #769",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/769.png",
+  "imageHash": "7aa9b889f8094172bf5d61b6a8136960fd3e33857b6686217883e7d73c019252",
+  "edition": 769,
+  "date": 1755064316275,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "cruising horse_green"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Brown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairCharlie Blonde"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesHalf White"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Greem Jacket"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBluetooth"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSouthpark"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetFractalpup"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "OverlayHalo No Gun"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

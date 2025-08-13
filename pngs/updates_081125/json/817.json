@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #817",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/817.png",
+  "imageHash": "d334a4dcb20fa27848241900c1a72067d989a0027cd0f9812703e634b1e51ea3",
+  "edition": 817,
+  "date": 1755064324451,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "art_gold2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Higherr Ghost"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesLight Green"
+    },
+    {
+      "trait_type": "Face decoration",
+      "value": "FaceSnake Bites"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka White"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Pink Shirt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCharlie Fang"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetNiwatori"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "Gorse"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

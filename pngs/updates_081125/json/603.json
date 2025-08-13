@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #603",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/603.png",
+  "imageHash": "8888467642172d9383f1f28b90cf4d41fbe3f27651c2cc9ad64a09b2382b4e62",
+  "edition": 603,
+  "date": 1755064284264,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "DevBruv"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas White"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_69"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtSailor Uniform"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBase Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthBinky_glossy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetTacoturtle"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetBasilisk"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

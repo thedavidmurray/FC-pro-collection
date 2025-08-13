@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #632",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/632.png",
+  "imageHash": "7bc9ebee4a095cd6ca3a65b11f54e50845ed8966fde890ff882009a2d057c7b8",
+  "edition": 632,
+  "date": 1755064289016,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "art_noise"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon MethViolet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka White"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatRepsol"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Yellow"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Green Tie"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthDummy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "catGhibli"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetRobodog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

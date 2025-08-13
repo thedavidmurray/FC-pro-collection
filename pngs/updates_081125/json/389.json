@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #389",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/389.png",
+  "imageHash": "b36574eea638bd6b934f2856f70aabbad4199176f035d3e14a199265ac80e30c",
+  "edition": 389,
+  "date": 1755064247447,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "farcatsPainting"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Meth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairWidow Orange"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Jeff Gorvette"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsAirpod Pro"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthToothpick"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetCookiefox"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

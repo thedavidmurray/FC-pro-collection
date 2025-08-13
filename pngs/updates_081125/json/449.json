@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #449",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/449.png",
+  "imageHash": "3f2e6a94c545635b1588a9771532cf4ffd06b17cff533b85eb4244ebb0d31891",
+  "edition": 449,
+  "date": 1755064257759,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "darth pepe_purple1"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesPink"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Pink"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Red Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtChore Coat"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBeetle"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthJuul"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendMikitty"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

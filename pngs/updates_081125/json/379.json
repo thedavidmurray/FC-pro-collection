@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #379",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/379.png",
+  "imageHash": "644ca4146e998e767d3dad6de61e4cccb68d0cd88a3bb1027ab28305c1c0b37a",
+  "edition": 379,
+  "date": 1755064245742,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "DevBruv_warm"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Meth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Moss"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatSailor"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Red Sunnies"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtAhegao"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsAirtag"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCalvin"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Chef Squeak"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKraken"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #504",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/504.png",
+  "imageHash": "e15960876030e12c748ed01c43e1ae1db224e249b2eb5fc3a3dddb4764d82fa9",
+  "edition": 504,
+  "date": 1755064266574,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "sellLow"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "Fiery ogun brows"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Brown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Blue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_40"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Blue Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtCactus Shirt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthJuul"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Squeak wif Hat"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "Camo Gent"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

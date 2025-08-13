@@ -1,0 +1,63 @@
+{
+  "name": "Protardio #134",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/134.png",
+  "imageHash": "9a6515ed30a6f91bc3ccab3e6b3bef2a9ffaf68a5a71ab58f930168f47c1700c",
+  "edition": 134,
+  "date": 1755064178519,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "runner white horse"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Blue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Blonde"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_22"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Yellow Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Meow"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsDBZ Potara"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "sure_best_email"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendBeatnik"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetShadowdog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

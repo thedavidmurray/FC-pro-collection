@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #749",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/749.png",
+  "imageHash": "fbda8148682b202f55789cf9c53cdb285106a230e4ac35c342e763fd5dd2380d",
+  "edition": 749,
+  "date": 1755064312708,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "darth pepe_warm"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Green"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Dusty"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_86"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtRick and Morty Backwoods"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsChrome Hearts"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthToothpick"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetBubblebat"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetDonutdog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

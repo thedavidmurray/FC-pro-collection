@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #139",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/139.png",
+  "imageHash": "0cfbe96594b0b7dc2a3ccf50ccfdb2142fe7f4d1acf2829c10e2b36916c9f012",
+  "edition": 139,
+  "date": 1755064181475,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "energy_zora_gold2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Grey"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatBonnet"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesBalenciaga Bat"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtJeff Gorvette"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBluetooth"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCalvin"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "sure_best_email"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendGold Sonic"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetSchwittershorse"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

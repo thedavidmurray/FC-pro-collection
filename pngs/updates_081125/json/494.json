@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #494",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/494.png",
+  "imageHash": "842cb535ec4bc0273e6dc466460f6c1f77db9481d75025232ed36f03bf7bb873",
+  "edition": 494,
+  "date": 1755064264971,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "must clank"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Hazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Caramel"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatMonkey Ears"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTiny White"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtRick and Morty Backwoods"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsFarcaster Arch"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigarette"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendPatrick"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKaleidorabbit"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

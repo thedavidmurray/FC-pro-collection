@@ -1,0 +1,35 @@
+{
+  "name": "Protardio #1",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/1.png",
+  "imageHash": "a65772ca57dbb9220bd92cb8b6d53ba675a8441792b3a2deba17e5524ac22ded",
+  "edition": 1,
+  "date": 1755064152891,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "destroyer_warm"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesHazel"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "CostumeBlack Niqab"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "HB Froggo"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

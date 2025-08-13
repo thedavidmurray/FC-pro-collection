@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #324",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/324.png",
+  "imageHash": "920e0ca2bb49bf46bb4c2f17570ec269420e0e09572a82e469cbcf866a835164",
+  "edition": 324,
+  "date": 1755064236124,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "gold check_blur"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBrown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Neon"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_108"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesJoe Biden"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Balenci Shirt light"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsLizard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthMini"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetMiniDragon"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKaeru"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

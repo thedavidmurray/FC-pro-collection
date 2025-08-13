@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #867",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/867.png",
+  "imageHash": "ceea5ad99469c3f2ac7da4bd91466c1965c118e05cfd311e9ba9a65f4974eba0",
+  "edition": 867,
+  "date": 1755064333601,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "this is what success looks like"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNotched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Hazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairCharlie Glowing"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Readers"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "okay based"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsWarpcast W"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "pepeBand6"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetBitbird"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

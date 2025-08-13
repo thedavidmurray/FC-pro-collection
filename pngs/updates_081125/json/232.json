@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #232",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/232.png",
+  "imageHash": "14aa8d4f1f3aa3f840c9162248fe5769b67e3898d2b9618dc5a5ce9c5f5c105f",
+  "edition": 232,
+  "date": 1755064202912,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "destroyer_purple2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon MethViolet"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Blonde"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatChav Bucket"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Green"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtIts Okay To Be Based"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCalvin"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendShigeru"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetCupcakepup"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

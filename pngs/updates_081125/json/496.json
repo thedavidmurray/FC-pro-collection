@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #496",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/496.png",
+  "imageHash": "34b8736ed133e3325fbd45567135294ba768b41d2db93a7560930af54a438838",
+  "edition": 496,
+  "date": 1755064265301,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Chicago Mentioned_blur"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBrown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Neon"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatEar Cap"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Green"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtToyota Corolla 2000"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "HorseFrog"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetBasilisk"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

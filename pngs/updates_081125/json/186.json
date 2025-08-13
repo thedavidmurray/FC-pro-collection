@@ -1,0 +1,63 @@
+{
+  "name": "Protardio #186",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/186.png",
+  "imageHash": "4e10486c0f76b51c072126625a374ebd417200dceacebfa26f74bfba39dfda41",
+  "edition": 186,
+  "date": 1755064189921,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "farcasterOG_purple2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesLight Green"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka White"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatHODL"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesSafety Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtHunter x Hunter"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsSquare Diamond"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthDrool"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "DgenGoldenTix"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendBionicle"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "FriendSatya"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

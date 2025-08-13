@@ -1,0 +1,35 @@
+{
+  "name": "Protardio #941",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/941.png",
+  "imageHash": "a629cf026cf9705006a681410dff1be76a730bf5e0b66e613bfc9527509ba5f4",
+  "edition": 941,
+  "date": 1755064348844,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "pepe time"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Oni Dark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesGreen"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Stripe Shirt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSouthpark"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetLanternfish"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

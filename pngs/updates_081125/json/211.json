@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #211",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/211.png",
+  "imageHash": "26b75e6f4dc9acc8b644d0a9e301038b618553f482d6cfd3308d3bfca9e43758",
+  "edition": 211,
+  "date": 1755064197230,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "gold check_gold2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBlue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka White"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Yellow Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Chris Chan"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsChrome Hearts"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigar"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendDenver Horse"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetShadowdog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

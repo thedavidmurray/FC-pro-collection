@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #762",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/762.png",
+  "imageHash": "f9816304d1cc1a7f1a6dbd0db6e388dea78a1018c2f5058702ec7d5233476318",
+  "edition": 762,
+  "date": 1755064315068,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "yon"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Reptilian"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka White"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatHeart Cap"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Yellow Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtYakuza Suit"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBluetooth"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthDummy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetMori"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "Camo Gent"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

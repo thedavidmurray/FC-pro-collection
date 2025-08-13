@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #89",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/89.png",
+  "imageHash": "2b0a85f69d4cf32bcd4910a19460a6a3b7cbcfc4f5074325e8979ae99e9d6ea4",
+  "edition": 89,
+  "date": 1755064168286,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "SuperAnon_purple2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Glowing"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatBlack Nasty"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesShooting Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Shirt Dk Purp"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsWarpcast W"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthTroll"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendPoe"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "Lumberjack Squeak"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

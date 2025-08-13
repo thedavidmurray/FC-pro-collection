@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #776",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/776.png",
+  "imageHash": "d620d303fd8eb1c165449ae642a2c2b6e075204f918c4ea1e860f6f273383af9",
+  "edition": 776,
+  "date": 1755064317478,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "darth pepe_warm"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Hazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Pink Painted"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatMushroom"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesBalenciaga Shield 2"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtMeline Teddy"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsStar Emoji"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCalvinpurple_lipstick"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetProudpeacock"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKraken"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

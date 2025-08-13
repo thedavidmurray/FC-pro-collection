@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #710",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/710.png",
+  "imageHash": "7defd5fa3f79741364f026e2a6fdb1d5e39a7433e24ae518328f79bef4d3885d",
+  "edition": 710,
+  "date": 1755064304107,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Background%AI_purple2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNotched"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTears"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Pink"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_110"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTiny Black"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtYakuza Suit"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBalenciaga Icon"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSouthpark"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetDalidog"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetMechabear"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

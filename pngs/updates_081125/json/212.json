@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #212",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/212.png",
+  "imageHash": "a8d77ca7a976cf76faec43b39372d4091c5d8a8461a7795de77288c2cde1482c",
+  "edition": 212,
+  "date": 1755064197661,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "airdrop season 16"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesBlue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Grey"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_72"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "blue tee"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthBinky_glossy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendPatchouli"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "HB Panther"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

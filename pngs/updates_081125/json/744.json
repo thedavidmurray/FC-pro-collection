@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #744",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/744.png",
+  "imageHash": "e7f92608d0667be1f34af482749a059a251910f5935994f33a28b950c7450070",
+  "edition": 744,
+  "date": 1755064311864,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "ddonChart_noise"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesLight Green"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Blue"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTom Cruise"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Bright Tie"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthPipe"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetMori"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKaleidorabbit"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

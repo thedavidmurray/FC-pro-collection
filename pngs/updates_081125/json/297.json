@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #297",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/297.png",
+  "imageHash": "3cfea09b6e964ed11aeb83009a8faf9c9364a3d8fc0350ebf88d6143d5fc046c",
+  "edition": 297,
+  "date": 1755064230502,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Rainbro_gradient"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesSouthpark"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairCharlie Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatBlack Nasty"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTiny White"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtPrison Uniform"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthCigarette"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendPatrick"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetTeacupdog"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

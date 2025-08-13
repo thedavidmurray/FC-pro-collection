@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #152",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/152.png",
+  "imageHash": "ffc81b20cd3e80384ec84dae4a471fd2aad4720ec42bc87704e2ea6f30bc7cb6",
+  "edition": 152,
+  "date": 1755064184034,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "gold check_blur"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesVoid"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas Blonde"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatStraw Hat Aged"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesShooting Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtPrison Uniform"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsDegen Coin"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKaeru"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

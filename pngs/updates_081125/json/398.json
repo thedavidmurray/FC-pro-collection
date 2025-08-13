@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #398",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/398.png",
+  "imageHash": "18878f1c94843e835d96c12fbad2408b94d51ebfc0279b09407ab41bab2b685c",
+  "edition": 398,
+  "date": 1755064248903,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "severed"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "Feeling Blue brows"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesVoid"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Green"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Yellow"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Skull Shirt"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsRemilia Cat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthLollipop"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "DgenGoldenTix"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendJack"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "lisan"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

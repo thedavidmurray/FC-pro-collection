@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #307",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/307.png",
+  "imageHash": "05e89fb1eddbedbb139c5c22243011a5aa3a014ecc8b9d1cd268a018ed6da82d",
+  "edition": 307,
+  "date": 1755064233364,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Farcats_gold2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesPink"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairWidow Blue"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "GlassesTom Cruise"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtRick and Morty Backwoods"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsFeather"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthLollipop"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "pepeBand3"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

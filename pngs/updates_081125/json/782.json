@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #782",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/782.png",
+  "imageHash": "9091ccc7fe7e1399afe6640c58ec1c3f0aa640235a8a00eeba256f7e53c8edd8",
+  "edition": 782,
+  "date": 1755064318552,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "SuperAnon_blue"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesPink"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Blue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatVW Saturn"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Purple"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtSkull Shirt"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthFlipped"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "DgenGoldenTix"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Squeak wif Hat"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

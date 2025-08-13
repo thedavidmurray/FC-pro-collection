@@ -1,0 +1,63 @@
+{
+  "name": "Protardio #123",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/123.png",
+  "imageHash": "a02ca1cc2ffd0e424e46b1f164f1f4c894e196949fec1596e429f5e7e194ada7",
+  "edition": 123,
+  "date": 1755064176363,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "moneyCallin"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Light Blue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_91"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Mottega"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtLab Coat"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsDBZ Potara"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthBinky_purple_lipstick"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "WeaponCandy Watch"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendBezos"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetKraken"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

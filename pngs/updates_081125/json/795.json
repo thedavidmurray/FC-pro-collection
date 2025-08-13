@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #795",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/795.png",
+  "imageHash": "5f568939419c2e54c22b22f8aac814f39b42a981aa1d90c249455f49b0f295ea",
+  "edition": 795,
+  "date": 1755064320715,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Farcats_gradient"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Higherr Ghost"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesHazel"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Grey"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Oak Mog"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtMeline Teddy"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "sure_best_email"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "pepeBand6"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

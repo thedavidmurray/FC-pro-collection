@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #192",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/192.png",
+  "imageHash": "fd836c41f37a369214a7e6b5c166a4cb7ef1e2809820d159017cd2b06d40fb8f",
+  "edition": 192,
+  "date": 1755064190938,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "cn portal"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "Feeling Blue brows"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesMeth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Neon"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hattech_93"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Green"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Leopard Vest"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSouthpark"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendAutism"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

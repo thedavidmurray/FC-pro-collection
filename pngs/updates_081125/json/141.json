@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #141",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/141.png",
+  "imageHash": "e1c45ad372cd4a6cfe5e44640ccfbb6d9aa6e8e0743618441faa08b7fdc66843",
+  "edition": 141,
+  "date": 1755064181825,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "pepridge"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Tan 2"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesTired Brown"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Mottega"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtJeff Gorvette"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsWarpcast W"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthVampire"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "catGhibli"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

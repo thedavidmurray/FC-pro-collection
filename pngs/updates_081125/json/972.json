@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #972",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/972.png",
+  "imageHash": "4b40fc33f1a76324026aac133c9586d29ee3c7f7452035a6034275e4f5ed31e7",
+  "edition": 972,
+  "date": 1755064354478,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "compass"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsSad"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Meth"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairMadoka Blue"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatHIGHER HAT OG"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Dark SunniesGold_frame"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtBlack Blazer"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsFeather"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthBinky_glossy"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "FriendYAYO CEO"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetSchwittershorse"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

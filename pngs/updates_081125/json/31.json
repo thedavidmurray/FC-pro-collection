@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #31",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/31.png",
+  "imageHash": "1e716bbe2f6ba501e3f32479b9ca7ad62ec84caf79ac189486159f874a16cfdd",
+  "edition": 31,
+  "date": 1755064157945,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "gmfc_green"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Stripe"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesHazel"
+    },
+    {
+      "trait_type": "Face decoration",
+      "value": "FaceChina and America"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatKitty Beanie"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "YY Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtGlobehead"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthSouthpark"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetLanternfish"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "PetIcecreambunny"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

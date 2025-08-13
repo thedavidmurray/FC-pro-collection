@@ -1,0 +1,51 @@
+{
+  "name": "Protardio #52",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/52.png",
+  "imageHash": "7989e5fa2a38d32fb4a799837b84073678e15e90cc089acfb83e4913c8478d3a",
+  "edition": 52,
+  "date": 1755064161708,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "darth pepe_gold2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLemaire Brown"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Gold Higher Glasses"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ox xo"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsFeather"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthJuul"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "Friendffxiv"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "lisan"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

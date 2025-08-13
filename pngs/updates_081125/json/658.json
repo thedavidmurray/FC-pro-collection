@@ -1,0 +1,59 @@
+{
+  "name": "Protardio #658",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/658.png",
+  "imageHash": "6c410cb10d880bd4a3eab6973a8bc6b3eaa91cbda08235518d0416dc391057bf",
+  "edition": 658,
+  "date": 1755064294139,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "AOL_purple2"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Ghost"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsBleached"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesSouthpark"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairAquarium Moss"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatMickey Hat"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Red Sunnies"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtRick and Morty Backwoods"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsLizard"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthLollipop"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "pepeBand2"
+    },
+    {
+      "trait_type": "Text Overlay",
+      "value": "Purple Apples"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

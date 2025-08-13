@@ -1,0 +1,47 @@
+{
+  "name": "Protardio #664",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/664.png",
+  "imageHash": "c0568c6cd32628552d5adda8a21eff033a5ae8f3ec5042c2517dad63fa9cb674",
+  "edition": 664,
+  "date": 1755064295181,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Degen Golden Ticket"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Brows",
+      "value": "BrowsNormal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesCartoon Blue"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairLukas Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatViking"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "Not Green Jacket"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthToothpick"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetJoybird"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}

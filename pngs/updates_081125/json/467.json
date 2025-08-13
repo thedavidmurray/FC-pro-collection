@@ -1,0 +1,55 @@
+{
+  "name": "Protardio #467",
+  "description": "Protardio Citizens - A collection of 1,000 unique characters exploring the boundaries of digital identity and community",
+  "image": "ipfs://NewUriToReplace/467.png",
+  "imageHash": "93a84830f43e806bf22fbd4ad029cf3a33f40a99280c810a21b1be1ad08dd2cd",
+  "edition": 467,
+  "date": 1755064260651,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "white horse herd"
+    },
+    {
+      "trait_type": "Body.skin.",
+      "value": "White"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "EyesGreen"
+    },
+    {
+      "trait_type": "Hair",
+      "value": "HairUlenka Golden Brown"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HatRepsol"
+    },
+    {
+      "trait_type": "Glasses",
+      "value": "Tiny Dark Purple"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "ShirtPink"
+    },
+    {
+      "trait_type": "Earrings",
+      "value": "EarringsBase Blue"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "MouthDrool"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "WeaponMinecraft Pickaxe"
+    },
+    {
+      "trait_type": "Friend",
+      "value": "PetCometfish"
+    }
+  ],
+  "compiler": "HashLips Art Engine - NFTChef fork"
+}
